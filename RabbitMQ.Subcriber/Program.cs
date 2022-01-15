@@ -18,10 +18,14 @@ namespace RabbitMQ.Subcriber
 
             channel.BasicQos(0, 1, false);
 
-            // channel.QueueDeclare("hello-queue", true, false, false);
-            
+            var randomQueueName = channel.QueueDeclare().QueueName;
+            channel.QueueBind(randomQueueName, "logs-fanout", "", null);
+
+
             var consumer = new EventingBasicConsumer(channel);
-            channel.BasicConsume("hello-queue", false, consumer);
+            channel.BasicConsume(randomQueueName, false, consumer);
+
+            Console.WriteLine("Loglar dinliyor...");
 
             consumer.Received += (object sender, BasicDeliverEventArgs e) =>
             {
