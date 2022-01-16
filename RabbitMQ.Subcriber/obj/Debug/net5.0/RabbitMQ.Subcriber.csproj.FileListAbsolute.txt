@@ -15,3 +15,4 @@ C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Subcriber\obj\Debug\net5.0\RabbitMQ
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Subcriber\obj\Debug\net5.0\ref\RabbitMQ.Subcriber.dll
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Subcriber\obj\Debug\net5.0\RabbitMQ.Subcriber.pdb
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Subcriber\obj\Debug\net5.0\RabbitMQ.Subcriber.genruntimeconfig.cache
+C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Subcriber\obj\Debug\net5.0\RabbitMQ.Subcriber.csproj.AssemblyReference.cache

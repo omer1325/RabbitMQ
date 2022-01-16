@@ -6,7 +6,6 @@ C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net5.0\RabbitMQ
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net5.0\ref\RabbitMQ.Publisher.dll
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net5.0\RabbitMQ.Publisher.pdb
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net5.0\RabbitMQ.Client.dll
-C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net5.0\RabbitMQ.Publisher.csproj.AssemblyReference.cache
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net5.0\RabbitMQ.Publisher.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net5.0\RabbitMQ.Publisher.AssemblyInfoInputs.cache
 C:\Users\omer\source\repos\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net5.0\RabbitMQ.Publisher.AssemblyInfo.cs

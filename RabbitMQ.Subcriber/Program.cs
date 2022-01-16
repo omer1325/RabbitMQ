@@ -19,7 +19,10 @@ namespace RabbitMQ.Subcriber
 
             channel.BasicQos(0, 1, false);
 
-            var queueName = "direct-queue-Critical";
+            var queueName = channel.QueueDeclare().QueueName;
+
+            var routeKey = "*.Error.*";
+            channel.QueueBind(queueName, "logs-topic", routeKey);
 
             var consumer = new EventingBasicConsumer(channel);
             channel.BasicConsume(queueName, false, consumer);
