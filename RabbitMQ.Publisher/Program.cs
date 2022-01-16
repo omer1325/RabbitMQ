@@ -33,6 +33,7 @@ namespace RabbitMQ.Publisher
 
             var properties = channel.CreateBasicProperties();
             properties.Headers = headers;
+            properties.Persistent = true;
 
             channel.BasicPublish("header-exchange", string.Empty, properties, Encoding.UTF8.GetBytes("header mesajım"));
 
